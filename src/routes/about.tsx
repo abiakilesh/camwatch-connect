@@ -19,6 +19,8 @@ export const Route = createFileRoute("/about")({
       { name: "description", content: "SHOPYINDIA is your local partner for CCTV and security solutions in Saravanampatti, Coimbatore." },
       { property: "og:title", content: "About SHOPYINDIA" },
       { property: "og:description", content: "Your local partner for security solutions." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: () => (

@@ -9,6 +9,8 @@ export const Route = createFileRoute("/services")({
       { name: "description", content: "CCTV installation, maintenance, DVR/NVR setup, remote viewing, fire alarm and biometric setup in Coimbatore." },
       { property: "og:title", content: "Services – SHOPYINDIA CCTV" },
       { property: "og:description", content: "Professional CCTV and security services in Coimbatore." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: () => (

@@ -14,6 +14,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "CCTV camera sales and installation in Saravanampatti, Coimbatore. HD, IP, Wi-Fi & solar cameras, DVR/NVR, fire alarms, biometrics and UPS." },
       { property: "og:title", content: "SHOPYINDIA – CCTV Sales & Services, Coimbatore" },
       { property: "og:description", content: "Smart security solutions for your home & business in Coimbatore." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Index,
