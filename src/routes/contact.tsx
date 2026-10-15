@@ -13,6 +13,8 @@ export const Route = createFileRoute("/contact")({
       { name: "description", content: "Call +91 88071 44013 or WhatsApp +91 96774 68769 for CCTV quotes. Keeranatham Rd, opp. CHIL SEZ IT Park, Saravanampatti." },
       { property: "og:title", content: "Contact SHOPYINDIA" },
       { property: "og:description", content: "Let's secure your property — get a free quote." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Contact,

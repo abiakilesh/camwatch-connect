@@ -9,6 +9,8 @@ export const Route = createFileRoute("/products")({
       { name: "description", content: "HD, IP, Wi-Fi, solar, 360° CCTV cameras, DVR/NVR, fire alarms, biometric systems, UPS and networking products in Coimbatore." },
       { property: "og:title", content: "Products – SHOPYINDIA CCTV" },
       { property: "og:description", content: "Browse 14 categories of CCTV and security products and enquire on WhatsApp." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: () => (
